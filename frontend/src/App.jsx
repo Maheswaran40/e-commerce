@@ -7,7 +7,7 @@ import Register from './components/Register';
 import User from './components/User';
 import Cart from './components/Cart';
 
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://e-commerce-pf58.onrender.com/';
 
 axios.interceptors.response.use(
   (response) => {
